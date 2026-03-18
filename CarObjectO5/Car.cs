@@ -1,3 +1,4 @@
+using UtilityOfCar;
 namespace CarObjectSpace{
 
 
@@ -17,16 +18,14 @@ namespace CarObjectSpace{
             this.Speed = 0;
         }
                 
-        public int Accelerate()
+        public void Accelerate()
         {
             this.Speed += 10;
-            return this.Speed;
         }
 
-        public int Brake()
+        public void Brake()
         {
             this.Speed -= 10;
-            return this.Speed;
         }
     }
 
